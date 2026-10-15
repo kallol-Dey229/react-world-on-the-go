@@ -5,7 +5,7 @@ import './Countries.css'
 const Countries = ({ countriesPromise }) => {
     const [visitedCountries, setVisitedCountries] = useState([]);
     const [visitedFlag, setVisitedFlag] = useState([])
-
+//
     const handleVisitedCountries = (country) =>{
        const newCount = [...visitedCountries,country];
        setVisitedCountries(newCount);
