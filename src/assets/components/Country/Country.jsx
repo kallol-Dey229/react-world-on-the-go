@@ -3,7 +3,7 @@ import './Country.css'
 
 const Country = ({ country, handleVisitedCountries,handleVisitedFlag}) => {
     // const name = country.name.common
-
+//
     const [visited, setVisited] = useState(false);
 
     const handleVisited = () => {
