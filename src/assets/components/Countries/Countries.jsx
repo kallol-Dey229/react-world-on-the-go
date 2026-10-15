@@ -1,7 +1,7 @@
 import React, { use, useState } from 'react';
 import Country from '../Country/Country';
 import './Countries.css'
-
+//
 const Countries = ({ countriesPromise }) => {
     const [visitedCountries, setVisitedCountries] = useState([]);
     const [visitedFlag, setVisitedFlag] = useState([])
