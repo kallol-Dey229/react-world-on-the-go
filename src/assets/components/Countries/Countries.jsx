@@ -10,7 +10,7 @@ const Countries = ({ countriesPromise }) => {
        const newCount = [...visitedCountries,country];
        setVisitedCountries(newCount);
     }
-//
+
     const handleVisitedFlag = (flag) =>{
         const newVisitedFlag = [...visitedFlag,flag]
         setVisitedFlag(newVisitedFlag);
